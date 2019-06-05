@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>crystal collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 my-4" style="background-color: burlywood">
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                        <p>You win the game by matching you total score to random number.  You loss the game if your total score goes above the random number.</p>
+                        <p>The value of each crystal hidden from you until you click on it.</p>
+                        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                        <h3 id="result"></h3>
+                    </div>
+                    <div class="col-md-6 my-4">
+                            <h3 class="text-center" style="background-color: antiquewhite">Crystal Collector!</h3>
+                            <h3 id="random-number" style="background-color: antiquewhite"></h3>
+            
+                                
+                            <img id="round" class="form round" src="./assets/images/round.png" alt="" style="height: 70px; width:70px;">
+                            <img id="triangle" class="form triangle" src="./assets/images/triangle.png" alt="" style="height: 70px; width:70px;">
+                            <img id="square" class="form square" src="./assets/images/square.png" alt="" style="height: 70px; width:70px;">
+                            <img id="hexagon " class="form hexagon" src="./assets/images/hexagon.png " alt="" style="height: 70px; width:70px;">
+                                
+                                    
+                            <h3  style="height:70px;background-color: antiquewhite">Your total score is: <span id="total-score"></span></h3>
+                            <h3 style="background-color: antiquewhite">Wins: <span id="wins"></span></h3>
+                            <h3 style="background-color: antiquewhite">losses: <span id="losses"></span></h3>
+
+                    </div>
+
+                </div>
+           
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/javascript/game.js"></script>
+    
+</body>
+</html>
