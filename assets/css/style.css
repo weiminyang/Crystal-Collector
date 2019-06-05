@@ -1,6 +1,10 @@
 .container{
-    background-image:url(../images/background.jpg)
+    background-image:url(../images/background.jpg);
+    height: 100%;
+    width: 100%;
+    min-height: 800px;
 }
+
 h3{
     height: 70px;
     text-align: center;
